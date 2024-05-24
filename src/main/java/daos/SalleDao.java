@@ -32,4 +32,5 @@ public class SalleDao {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'deleteById'");
     }
+
 }

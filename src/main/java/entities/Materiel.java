@@ -75,8 +75,6 @@ public class Materiel {
     public void setStatus(MaterielStatus status) {
         this.status = status;
     }
-   
-    @OneToMany(mappedBy = "materiels")
-    private List<Reservation> reservations;
+
    
 }

@@ -3,6 +3,8 @@ package daos;
 import java.util.List;
 import java.util.Optional;
 
+import entities.Infermiere;
+
 
 
 public class InfermiereDao {
@@ -12,15 +14,15 @@ public class InfermiereDao {
     private String prenom;
     private String email;
     private String password;
-    public List<entities.Infermiere> findAll() {
+    public List<Infermiere> findAll() {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'findAll'");
     }
-    public Optional<entities.Infermiere> findById(Long id2) {
+    public Optional<Infermiere> findById(Long id2) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'findById'");
     }
-    public entities.Infermiere save(entities.Infermiere infermiere) {
+    public Infermiere save(Infermiere infermiere) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'save'");
     }
@@ -28,4 +30,5 @@ public class InfermiereDao {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'deleteById'");
     }
+    
 }
